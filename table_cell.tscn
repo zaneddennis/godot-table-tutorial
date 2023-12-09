@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce56vwnq6kj6c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w0b7p"]
+draw_center = false
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+
+[node name="table_cell" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_w0b7p")
+text = "[cell]"
+horizontal_alignment = 1
+vertical_alignment = 1
